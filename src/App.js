@@ -10,7 +10,7 @@ function App() {
     JSON.parse(localStorage.getItem("tasks")) || []
   );
   const [totalDeTasksCompletas, setTotalDeTasksCompletas] = useState(0);
-
+//a
   useEffect(() => {
     const tasksCompletas = () => {
       if (tasks.length === 0) {
